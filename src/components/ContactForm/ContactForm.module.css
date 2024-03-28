@@ -1,0 +1,29 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 4px solid black;
+  border-radius: 5px;
+  width: 600px;
+  font-weight: 30px;
+  padding: 30px;
+  margin: 40px;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.formInput {
+  height: 50px;
+  border: 1px solid black;
+}
+
+.formError {
+  color: red;
+}
+
+.formBtn {
+  border: 1px solid blue;
+  background-color: rgb(86, 154, 186);
+}

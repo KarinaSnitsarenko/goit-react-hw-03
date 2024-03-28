@@ -1,0 +1,24 @@
+.contactItem {
+  display: flex;
+  flex-direction: row;
+  border: 4px solid black;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  padding: 5px;
+  position: relative;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.contactButon {
+  margin: 0auto;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  border: 1px solid blue;
+  background-color: rgb(86, 154, 186);
+  border-radius: 5px;
+}

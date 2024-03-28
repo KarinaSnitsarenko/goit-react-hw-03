@@ -1,0 +1,12 @@
+.container {
+  font-size: 18px;
+  font-weight: 500px;
+  margin-left: 40px;
+}
+
+.serchInput {
+  height: 50px;
+  width: 250px;
+  border: 1px solid black;
+  margin-left: 20px;
+}
