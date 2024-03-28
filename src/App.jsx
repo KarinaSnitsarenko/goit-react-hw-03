@@ -1,9 +1,9 @@
-// import contacts from "./contacts.json";
 import { useState, useEffect } from "react";
 import { nanoid } from "nanoid";
 import ContactList from "./components/ContactList/ContactList";
 import ContactForm from "./components/ContactForm/ContactForm";
 import SearchBox from "./components/SearchBox/SearchBox";
+import contactsMas from "./components/contactsMas.json";
 
 const STORAGE_KEY = "contacts";
 
@@ -11,7 +11,7 @@ function App() {
   const [contacts, setContacts] = useState(() => {
     const stringifiedContacts = localStorage.getItem(STORAGE_KEY);
     const parsedContacts = JSON.parse(stringifiedContacts) || [];
-    return parsedContacts.length ? parsedContacts : contacts;
+    return parsedContacts.length ? parsedContacts : contactsMas;
   });
   const [filter, setFilter] = useState("");
 
